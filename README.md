@@ -233,9 +233,9 @@ Preferovaný gender
 </label>
 
 <select id="gender" required>
-    <option value="FEMALE">Female</option>
-    <option value="MALE">Male</option>
-    <option value="NONBINARY">Nonbinary</option>
+    <option value="FEMALE">Žena</option>
+    <option value="MALE">Muž</option>
+    <option value="NONBINARY">Nebinární</option>
 </select>
 
 <label for="cipherKey">

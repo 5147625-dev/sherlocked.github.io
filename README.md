@@ -1,4 +1,3 @@
-
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
@@ -212,9 +211,7 @@ hr {
 
 <div class="container">
 
-<h1>Matrix Cipher</h1>
-
-</p>
+<h1>Šifrovačka</h1>
 
 <form id="cipherForm">
 

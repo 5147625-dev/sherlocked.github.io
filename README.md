@@ -1,11 +1,10 @@
 
-<!DOCTYPE html>
 <html lang="cs">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Matrix Cipher</title>
+<title>Šifrovací kuchařka</title>
 
 <style>
 * {
@@ -215,14 +214,12 @@ hr {
 
 <h1>Matrix Cipher</h1>
 
-<p class="subtitle">
-Personalized matrix encryption system
 </p>
 
 <form id="cipherForm">
 
 <label for="personalNumber">
-Personal number (exactly 8 digits)
+Osobní číslo
 </label>
 
 <input
@@ -230,12 +227,12 @@ Personal number (exactly 8 digits)
     id="personalNumber"
     inputmode="numeric"
     maxlength="8"
-    placeholder="Example: 58120447"
+    placeholder="Příklad: 58120447"
     required
 >
 
 <label for="gender">
-Recipient gender
+Preferovaný gender
 </label>
 
 <select id="gender" required>
@@ -245,30 +242,30 @@ Recipient gender
 </select>
 
 <label for="cipherKey">
-Cipher key
+Klíč
 </label>
 
 <input
     type="text"
     id="cipherKey"
-    placeholder="Enter cipher key"
+    placeholder="Zadejte klíč"
     required
 >
 
 <label for="message">
-Text to encrypt
+Tajenka
 </label>
 
 <textarea
     id="message"
-    placeholder="Enter your message..."
+    placeholder="Zadejte zprávu..."
     required
 ></textarea>
 
 <div class="row">
 
     <div>
-        <label for="rows">Matrix rows</label>
+        <label for="rows">Řádky</label>
         <input
             type="number"
             id="rows"
@@ -280,7 +277,7 @@ Text to encrypt
     </div>
 
     <div>
-        <label for="cols">Matrix columns</label>
+        <label for="cols">Sloupce</label>
         <input
             type="number"
             id="cols"
@@ -294,7 +291,7 @@ Text to encrypt
 </div>
 
 <button type="submit">
-ENCRYPT MESSAGE
+ZAŠIFROVAT
 </button>
 
 </form>
